@@ -54,10 +54,13 @@ ul {
     gap: 30px;
 }
 
+.banner-content {
+    min-width: 450px;
+}
+
 .banner img {
-    width: 500px;
+    width: 400px;
     height: 200px;
-    flex: 0 0 auto;
 }
 
 .hero-main-text {
