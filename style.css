@@ -23,6 +23,7 @@ body {
     flex: 1;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .logo {
@@ -83,8 +84,85 @@ button {
     flex-direction: column;
 }
 
+.information {
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.info img {
+    width: 150px;
+    height: 150px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 300px 70px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.call-to-action-prompt {
+    background: #3882f6;
+    width: 75vw;
+    padding: 30px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
 p {
-    flex: 1;
+    margin: 0;
+}
+
+p.main {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+p.sub {
+    color: #E5E7EB;
+}
+
+.call-to-action-button {
+    border: 1px solid #f9faf8;
+    flex-shrink: 0;
 }
 
 .footer {
