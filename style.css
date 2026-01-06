@@ -8,7 +8,7 @@ body {
 
 .header, .body-info, .body-quote, .body-banner, .footer {
     display: flex;
-    padding: 24px 100px;
+    padding: 24px 240px;
 }
 
 .header, .footer {
@@ -17,9 +17,32 @@ body {
 
 .header {
     color: #f9faf8;
+    flex-direction: column;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .footer, .hero-secondary, a {
+    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -30,4 +53,34 @@ body {
 .footer {
     justify-content: center;
     align-items: center;
+}
+
+.header-top, .header-info {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 64px;
+}
+
+.header-text {
+    width: 600px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.header-button {
+    margin-top: 8px;
+}
+
+.header-image {
+    width: 480px;
+    background-color: grey;
+    flex-shrink: 0;
 }
