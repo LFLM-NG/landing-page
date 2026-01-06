@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .body-info, .body-quote, .body-banner, .footer {
+    display: flex;
+    padding: 24px 100px;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header {
+    color: #f9faf8;
+}
+
+.footer, .hero-secondary, a {
+    color: #e5e7eb;
+}
+
+.body-info, .body-quote, .body-banner {
+    flex: 1;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
